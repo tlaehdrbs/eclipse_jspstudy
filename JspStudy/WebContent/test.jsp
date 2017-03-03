@@ -13,7 +13,7 @@
 	//Scriptlet(스크립트릿) => 자바 코드를 사용 가능
 	String str="DK";
 	//document.write("str="+str)
-//	System.out.println("str="+str); //콘솔에 출력하여 결과를 확인할 수 있습니다
+	System.out.println("str="+str); //콘솔에 출력하여 결과를 확인할 수 있습니다
 	//웹 상에 출력하고 싶다면 사용하는 구문은
 	out.println("str="+str);
 	%>
