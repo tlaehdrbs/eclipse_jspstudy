@@ -17,5 +17,7 @@
 	//웹 상에 출력하고 싶다면 사용하는 구문은
 	out.println("str="+str);
 	%>
+	<hr>
+	str의 값을 출력=<%=str%>
 </body>
 </html>
