@@ -11,16 +11,7 @@
 <title>JSP test 2</title>
 </head>
 <body>
-<%
-	//자바의 코드를 작성합니다 => 제어문, 변수를 선언합니다
-	int count=3;
-	for(int i=0;i<count;i++) {
-		out.println("<h1>JSP test "+i+"!</h1><br>");
-		//------JavaScript 경우 출력 형태------
-		//document.write("<h1>JSP testM</h1> "+i+"!<br>");
-		//out.println("count="+count);
-	}
-%>
+
 
 <%
 	String var2="JSP";
@@ -31,5 +22,7 @@
 
 <h3>출력할 값:<%=var1 %></h3><br>
 <h3>수식 계산:<%=(3+5)%></h3>
+<hr>
+수식계산 2: <%=(3*5)%>
 </body>
 </html>
